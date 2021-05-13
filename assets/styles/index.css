@@ -92,6 +92,112 @@
     .banner{
         margin-bottom: 60px;
     }
+    .usage{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .usage h3{
+        font-weight: 500;
+        color: #ff6050;
+     
+    }
+    .img--div{
+        width: 65px;
+        height: 60px;
+    }
+    .img--div img{
+        width: 100%;
+        height: 100%;
+    }
+    .usage p{
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    .usage aside{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 25px;
+    }
+    .usage aside div:nth-child(2){
+        margin-left: 10px;
+    }
+    .customer--stories{
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .customer--stories .card{
+        height: 340px;
+        width: 265px;
+        background-size: 268px;
+        display: flex;
+        align-items: flex-end;
+        padding: 10px 15px;
+        margin: 0 20px;
+        border-radius: 20px;
+    }
+    .customer--stories .card aside{
+        width: 100%;
+    }
+    .customer--stories .spotify{
+        background-image: url('https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048fc03df2a8e492b551ba2_Spotifyquarter-spotify-card-min.png');
+
+    }
+    .customer--stories .instagram{
+        background-image: url('https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048fc1bb3e2c30a20723601_Card-insta-quarter-min.png');
+    }
+    .customer--stories .music{
+        background-image: url('https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048fc1b559609ad1e835bae_Card-apple-quarter-min.png');
+    }
+    .customer--stories .vevo{
+        background-image: url('https://assets-global.website-files.com/5c5b0a009abbac199b244792/6049d70ce73b4cee8939e071_Card-min.png');
+    }
+    .customer--stories p{
+        font-size: 14px;
+        color: #fff;
+        font-weight: 300;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .customer-logo--div{
+        width: 130px;
+    }
+    .customer-logo--div img{
+        width: 100%;
+    }
+    .see--more{
+        text-align: center;
+        margin: 30px 0;
+    }
+    .see--more a{
+        text-decoration: none;
+        background-color: #f5f5f5;
+        text-align: center;
+        padding:15px 25px ;
+        color: #000;
+        border-radius: 12px;
+        display: inline-block;
+    }
+    .brand--text{
+        font-size: 23px;
+        margin: 30px 0;
+        font-weight: 300;
+    }
+    .brands{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .brand--img{
+        margin: 0 10px;
+        width: 165px;
+        height: 70px;
+    }
+    .brand--img img{
+        width: 100%;
+        height: 100%;
+    }
     @media screen and (max-width:1134px){
             .container{
             width: 1000px;
