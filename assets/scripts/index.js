@@ -11,7 +11,7 @@ function slickers(){
       slidesToShow: 2,
       breakpoint : 1000,
       arrows:false,
-      autoplay:true,
+      autoplay:false,
       responsive: [
         {
           breakpoint: 670,
