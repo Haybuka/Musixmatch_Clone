@@ -28,12 +28,11 @@ function slickers(){
           breakpoint: 554,
           settings: {
             arrows: false,
-            centerMode: true,
+            centerMode: false,
             centerPadding: '5px',
-            slidesToShow: 1,
+            slidesToShow: 2,
             autoplaySpeed:1500,
-            cssEase:'ease-out',
-            autoplay:false
+            cssEase:'ease-out'
           }
         }
       ]
