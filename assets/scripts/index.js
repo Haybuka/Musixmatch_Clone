@@ -29,9 +29,9 @@ function slickers(){
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '5px',
+            centerPadding: '20px',
             slidesToShow: 2,
-            autoplaySpeed:1500,
+            autoplaySpeed:2000,
             cssEase:'ease-out'
           }
         }
