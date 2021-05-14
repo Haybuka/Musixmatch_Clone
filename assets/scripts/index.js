@@ -28,9 +28,9 @@ function slickers(){
           breakpoint: 554,
           settings: {
             arrows: false,
-            centerMode: true,
+            centerMode: false,
             centerPadding: '10px',
-            slidesToShow: 1,
+            slidesToShow: 2,
             autoplaySpeed:1500,
             cssEase:'ease-out'
           }
