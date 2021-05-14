@@ -102,8 +102,8 @@
      
     }
     .img--div{
-        width: 65px;
-        height: 60px;
+        width: 60px;
+        height: 55px;
     }
     .img--div img{
         width: 100%;
@@ -127,14 +127,19 @@
         display: flex;
     }
     .customer--stories .card{
-        height: 340px;
-        width: 265px;
+        cursor: pointer;
+        height: 340px !important;
+        width: 265px !important;
         background-size: 268px;
-        display: flex;
+        display: flex !important;
         align-items: flex-end;
         padding: 10px 15px;
         margin: 0 20px;
         border-radius: 20px;
+    }
+    .customer--stories .card:hover{
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+        transform: translateY(-3px);
     }
     .customer--stories .card aside{
         width: 100%;
@@ -198,6 +203,12 @@
         width: 100%;
         height: 100%;
     }
+    .making--music h3{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 40px 0;
+    }
     @media screen and (max-width:1134px){
             .container{
             width: 1000px;
@@ -210,12 +221,33 @@
         .nav-logo{
             margin: 0 5px;
         }
-       
+        .usage p{
+            font-size: 12px;
+        }
+        .banner h2{
+            font-size: 48px;
+            line-height: 50px;
+        }
+        .usage aside{
+            margin-right: 5px;
+        }
+        .customer--stories .card{
+            background-position: center;
+        }
+    }
+    @media screen and (max-width:1030px){
+        .customer-slider{
+            background-color: transparent;
+        }
     }
     @media screen and (max-width:1000px){
             .container{
-            width: 700px;
+            width: 750px;
             margin: 0 auto;
+            padding: 5px 10px;
+        }
+        .usage aside{
+            width: 245px;
         }
        .li--item{
            display: none;
@@ -223,13 +255,53 @@
        .sign--in{
            border: none;
        }
+       .img--div{
+        width: 75px;
+        height: 50px;
     }
+    }
+    @media screen and (max-width:740px){
+        .usage{display: block;}
+        .usage aside{
+            background-color: #ffeded;
+            margin: 15px 0;
+            border-radius: 16px;
+            width: auto;
+            padding: 5px 0;
+            overflow: hidden;
+        }
+        .img--div{
+            width: auto;
+            background-color: #ffeded;
+
+            height: 50px;
+            border: none;
+        }
+        .img--div img{
+            position: relative;
+        }
+        .img--div img::after{
+          position: absolute;
+          content: ' ';
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-color: #b60303;
+        }
+        .usage aside h3+p{
+            display: none;
+        }
+}
     @media screen and (max-width:700px){
             .container{
           width: auto;
         }
         form p{
             display: none;
+        }
+        .customer--stories .card{
+            margin: 0 auto;
         }
     }
     @media screen and (max-width:490px){
@@ -243,8 +315,25 @@
         form input{
             padding: 10px 5px;
         }
+        .brand--img{width: 100px;
+        height: 35px;}
+        .making--music h3{
+            font-size: 30px;
+        }
     }
     @media screen and (max-width:440px){
+        .banner h2{
+            font-size: 32px;
+            line-height: 35px;
+            margin-top: 30px;
+        }
+       
+        .brand--text{
+            font-size: 20px;
+        }
+        .banner{
+            margin-bottom: 30px;
+        }
           .nav--items{
               display: none;
           }
@@ -259,4 +348,9 @@
             padding: 10px 15px;
             margin: 0 10px;
           }
+    }
+    @media screen and (max-width:400px){
+        .brand--img{
+            width: 80px;
+            height: 35px;}
     }
