@@ -32,7 +32,8 @@ function slickers(){
             centerPadding: '10px',
             slidesToShow: 2,
             autoplaySpeed:1500,
-            cssEase:'ease-out'
+            cssEase:'ease-out',
+            autoplay:false
           }
         }
       ]
