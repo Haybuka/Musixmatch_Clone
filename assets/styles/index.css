@@ -214,6 +214,68 @@
         margin: 70px 0;
         margin-bottom: 40px;
     }
+    .making--card{
+        min-width: auto;
+        max-width: 520px;
+    }
+    .making--music aside{
+        min-height: 460px;
+        background-color: #faf9ff;
+        border-radius: 15px;
+        background-size: 520px;
+        background-position: 100% 50%;
+        background-repeat: no-repeat;
+        display: flex;
+        padding-left: 75px;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .making--card h4{
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .making--card p{
+        font-weight: 300;
+        line-height: 30px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .making--img {
+        display: none;
+    }
+    .making--card a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        padding: 15px 25px;
+        position: relative;
+        border-radius: 10px;
+        z-index: 1;
+    }
+  .making--card a::after{
+      content: '';
+      display: inline;
+      background-color: rgb(0, 0, 0);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      position: absolute;
+      border-radius: 10px;
+      transition: all 0.2s ease-in;
+  }
+  .making--card a:hover::after{
+      background-color: rgba(0, 0, 0, 0.308);
+      transform: scaleX(1.1);
+  }
+    .making--music .card--one{
+
+        background-image: url('/assets/images/music/music-cataglogue.png');
+    }
     @media screen and (max-width:1134px){
             .container{
             width: 1000px;
@@ -243,6 +305,41 @@
     @media screen and (max-width:1030px){
         .customer-slider{
             background-color: transparent;
+        }
+        .making--card{
+            max-width: inherit;
+        }
+        .making--music .card--one{
+            background: #f4f2ff;
+        }
+        .making--img{
+            display: block;
+            background-repeat: no-repeat;
+            background-image: url('/assets/images/music/catalogue-mobile.png');
+            /* height: 300px;
+             */
+             min-height: 400px;
+            background-position: 50% 50%;
+            background-size: contain;
+            background-color: #f4f2ff;
+        }
+        .making--card a{
+            border-radius: 20px;
+            padding: 10px 25px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .making--card a::after{
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .making--img img{
+            width: 100%;
+            height: 100%;
+        }
+        .making--music aside{
+            padding: 0px 20px;
+            padding-bottom: 10px;
         }
     }
     @media screen and (max-width:1000px){
@@ -296,11 +393,12 @@
         form p{
             display: none;
         }
-        /* .customer--stories .card{
-            margin: 0 auto;
-        } */
+       
     }
     @media screen and (max-width:490px){
+        .making--card p{
+            line-height: 28px;
+        }
             .container{
           width: auto;
         }
@@ -319,6 +417,10 @@
         .making--music h3{
             font-size: 30px;
             margin-top: 30px;
+        }
+        .making--card h4{
+            line-height: 30px;
+            font-size: 24px;
         }
     }
     @media screen and (max-width:440px){
@@ -347,6 +449,10 @@
             background-color: #666;
             padding: 10px 15px;
             margin: 0 10px;
+          }
+          .making--img{
+              height: auto;
+              min-height: 240px;
           }
     }
     @media screen and (max-width:400px){
