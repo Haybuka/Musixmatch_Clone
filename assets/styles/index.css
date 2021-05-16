@@ -276,6 +276,17 @@
 
         background-image: url('/assets/images/music/music-cataglogue.png');
     }
+    .making--music .card--two{
+        background-image: url('/assets/images/music/lyrical-perfection-desktop.png');
+    }
+    .button--display{
+        display: inline-block;
+        width: 25px;
+        transform: translate(-5px,5px);
+    }
+    .button--display img{
+        width: 100%;
+    }
     @media screen and (max-width:1134px){
             .container{
             width: 1000px;
@@ -309,8 +320,12 @@
         .making--card{
             max-width: inherit;
         }
-        .making--music .card--one{
+        .making--music .card--one,
+        .making--music .card--two{
             background: #f4f2ff;
+        }
+        .card--two .making--img{
+            background-image: url('/assets/images/music/lyrical-perfection.png');
         }
         .making--img{
             display: block;
