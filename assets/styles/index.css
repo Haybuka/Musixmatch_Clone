@@ -279,6 +279,15 @@
     .making--music .card--two{
         background-image: url('/assets/images/music/lyrical-perfection-desktop.png');
     }
+    .making--music .card--three{
+        background-image:url('/assets/images/music/lyrics-catalogue.png') ;
+    }
+    .making--music .card--four{
+        background-image:url('/assets/images/music/deep-data.png') ;
+    }
+    .making--music .card--five{
+        background-image:url('/assets/images/music/royalties.png') ;
+    }
     .button--display{
         display: inline-block;
         width: 25px;
@@ -321,11 +330,23 @@
             max-width: inherit;
         }
         .making--music .card--one,
-        .making--music .card--two{
+        .making--music .card--two,
+        .making--music .card--three,
+        .making--music .card--four,
+        .making--music .card--five{
             background: #f4f2ff;
         }
         .card--two .making--img{
             background-image: url('/assets/images/music/lyrical-perfection.png');
+        }
+        .card--three .making--img{
+            background-image: url('/assets/images/music/lyrics-catalogue-mobile.png');
+        }
+        .card--four .making--img{
+            background-image: url('/assets/images/music/deep-mobile.png');
+        }
+        .card--five .making--img{
+            background-image: url('/assets/images/music/royalties-mobile.png');
         }
         .making--img{
             display: block;

@@ -1,9 +1,12 @@
 let bodyWidth = document.querySelector('body').clientWidth;
 
+  try {
     $('.customer--stories').slick(slickers());
+  } catch (error) {
+    
+  }
 
 function slickers(){
-  console.log(bodyWidth)
   if (bodyWidth <= 1002){
     return {
       centerMode: false,
