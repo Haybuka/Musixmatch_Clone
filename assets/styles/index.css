@@ -436,7 +436,7 @@
         .container{
             width: 750px;
             margin: 0 auto;
-            padding: 5px 10px;
+            padding: 5px 20px;
         }
         .usage aside{
             width: 245px;
@@ -455,6 +455,9 @@
         display: block;
         justify-content: space-between;
         align-items: center;
+    }
+    .contact p{
+        line-height: 30px;
     }
   
     .contact section{
@@ -548,7 +551,7 @@
               padding: 0 20px;
           }
           .search--icon{
-              display: block;
+              display: none;
               width: 16px;
             height: 20px;
             background-color: #666;
