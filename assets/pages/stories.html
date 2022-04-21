@@ -12,10 +12,13 @@
    <div class="container">
       <header class="header-banner">
         <nav>
-            <section>
+            <section class="burger-menu">
                 <div class="nav-logo">
                      <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5c61ab8f45db001e3209866c_mxm-logoLight.png" alt="logo">
 
+               </div>
+               <div class="harmburger">
+                    <span></span><span></span><span></span>
                </div>
             </section>
             <section class="">
@@ -67,6 +70,111 @@
          </p>
       </section>
    </div>
-    
+   <section class="customer--stories">
+     <aside class="layout">
+        <div class="card vevo">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/6049d74d69f883fc070349b3_vevo_wordmark_white%201.png" alt="client logo">
+                </div>
+                <p>
+                    Real-time synced lyrics enhance users’ listening experience and song engagement.
+                </p>
+            </aside>
+        </div>
+        <div class="card spotify">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5dd6ca8556f04a73c63a00ec_Spotify-logo-small.png" alt="client logo">
+                </div>
+                <p>
+                    Real-time synced lyrics enhance users’ listening experience and song engagement.
+                </p>
+            </aside>
+        </div>
+        <div class="card tidal">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/60f98ce7e1d0875bcbc53fb1_Tidal.png" alt="client logo">
+                </div>
+                <p>
+                    Real-time synced lyrics enhance users’ listening experience and song engagement.
+                </p>
+            </aside>
+        </div>
+     </aside>
+     <aside class="layout">
+        <div class="card instagram">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5cfe2f981c26abdac70818e5_Logo_Instagram.png" alt="client logo">
+                </div>
+                <p>
+                    Lyrics can be added directly to Instagram Stories for enriched storytelling.
+                </p>
+            </aside>
+        </div>
+        <div class="card amazon">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5cfe2643690807f95b2807bc_Logo.png" alt="client logo">
+                </div>
+                <p>
+                    Lyrics can be added directly to Instagram Stories for enriched storytelling.
+                </p>
+            </aside>
+        </div>
+        <div class="card music">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5fa3dc5076aae4a9a71dc78b_Apple%20Music%20Logo.png" alt="client logo">
+                </div>
+                <p>
+                    Lyrics search option and display allow for easy song discovery and a heightened experience.
+                </p>
+            </aside>
+        </div>
+     </aside>
+     <aside class="layout">
+        <div class="card google">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5cfe26751c26ab21c907f58c_Logo.png" alt="client logo">
+                </div>
+                <p>
+                    Real-time synced lyrics enhance users’ listening experience and song engagement.
+                </p>
+            </aside>
+        </div>
+        <div class="card amazon-music">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5cfe25e7982a74e4dbf3f070_Logo.png" alt="client logo">
+                </div>
+                <p>
+                    Real-time synced lyrics enhance users’ listening experience and song engagement.
+                </p>
+            </aside>
+        </div>
+        <div class="card shazam">
+            <aside>
+                <div class="customer-logo--div">
+                    <img src="https://assets-global.website-files.com/5c5b0a009abbac199b244792/5cfe21fb435263db9cb1727a_Shazam_Logo.png" alt="client logo">
+                </div>
+                <p>
+                    Real-time synced lyrics enhance users’ listening experience and song engagement.
+                </p>
+            </aside>
+        </div>
+     </aside>
+  </section>
+    <script>
+        const harmburger = document.querySelector('.harmburger')
+        const navItem = document.querySelector('nav')
+        harmburger.addEventListener('click',()=>{
+            navItem.classList.toggle('toggle-nav')
+            // alert('clicked')
+        })
+    </script>
 </body>
 </html>
