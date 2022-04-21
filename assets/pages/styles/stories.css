@@ -184,11 +184,31 @@ background-image:url('https://assets-global.website-files.com/5c5b0a009abbac199b
     line-height: 25px;
     margin-bottom: 15px;
 }
+.customer--stories h3{
+    text-transform:  uppercase;
+    color: #fc3c7e;
+    text-align: center;
+    font-weight: normal;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
 .customer-logo--div{
     width: 180px;
 }
 .customer-logo--div img{
     width: 100%;
+}
+
+.customer--logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 120px;
+}
+.customer--logos img{
+    width: 160px;
+    height: auto;
 }
 @media screen and (max-width:1200px){
     .header-banner{
@@ -252,10 +272,39 @@ background-image:url('https://assets-global.website-files.com/5c5b0a009abbac199b
 }
 @media screen and (max-width:850px){
     .banner p{
-        font-size: 50px;
+        font-size: 40px;
+        width: auto;
+        line-height: 50px;
     }
     .header-banner{
         width: auto;
         padding: 10px 15px;
+    }
+    .customer--logos{
+        padding: 20px;
+    }
+    .customer--logos img{
+      display: inline-block;
+      margin: 20px 0;
+    }
+    .customer--stories{
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:610px){
+    .customer--stories .card{
+   
+        height: 550px !important;
+        width: auto !important;
+      
+    }
+}
+@media screen and (max-width:580px){
+    .customer--logos img{
+        width: 120px;
+    }
+    .customer--stories h3{
+        font-size: 14px;
     }
 }
