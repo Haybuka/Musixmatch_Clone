@@ -189,7 +189,6 @@ background-image:url('https://assets-global.website-files.com/5c5b0a009abbac199b
     color: #fc3c7e;
     text-align: center;
     font-weight: normal;
-    word-spacing: 5px;
     letter-spacing: 5px;
 }
 .customer-logo--div{
@@ -205,10 +204,36 @@ background-image:url('https://assets-global.website-files.com/5c5b0a009abbac199b
     flex-wrap: wrap;
     align-items: center;
     padding: 20px 120px;
+    margin: 30px 0;
 }
 .customer--logos img{
     width: 160px;
     height: auto;
+}
+footer{
+    text-align: center;
+    margin:40px 0 20px 0;
+}
+footer h2{
+    color: #333;
+    font-size: 50px;
+}
+footer p{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #777;
+    font-weight: 300;
+}
+footer button{
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ff5353;
+    outline: none;
+    cursor: pointer;
+    margin: 30px 15px;
+    border-radius: 15px;
+    color: #fff;
 }
 @media screen and (max-width:1200px){
     .header-banner{
